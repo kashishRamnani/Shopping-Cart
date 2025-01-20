@@ -1,5 +1,6 @@
 {
   "name": "vite-project",
+  "homepage": "https://kashishRamnani.github.io/E-commerce-shopping",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,20 +8,21 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+     "predeploy":"npm run build",
+    "deploy":"gh-pages -d dist"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
-    
     "bootstrap": "^5.3.3",
     "firebase": "^10.13.2",
+    "gh-pages": "^6.3.0",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.4",
     "react": "^18.3.1",
     "react-bootstrap": "^2.10.4",
     "react-countup": "^6.5.3",
     "react-dom": "^18.3.1",
-   
     "react-router-dom": "^6.26.1",
     "sort-by": "^1.2.0",
     "swiper": "^11.1.12"
