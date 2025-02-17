@@ -1,6 +1,6 @@
 {
   "name": "vite-project",
-  "homepage": "https://kashishRamnani.github.io/E-commerce-shopping",
+  "homepage": "https://kashishramnani.github.io/shopping-cart",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
